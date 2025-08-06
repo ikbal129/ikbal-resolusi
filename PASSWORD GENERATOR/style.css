@@ -1,0 +1,68 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 7px rgba(0,0,0,.4);
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp {
+    padding: 11px;
+    border: none;
+    background-color: #eaeaea;
+    border-radius: 2px;
+}
+
+#submit {
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background-color: #334;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.judul {
+    font-size: 23px;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color: #111;
+    color: #eaeaea;
+}
